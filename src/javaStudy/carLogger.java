@@ -4,6 +4,7 @@ public class carLogger {
     String make;
     int year;
     String color;
+
     // constructor
     public carLogger(String carMake, int carYear, String carColor) {
         make = carMake;
