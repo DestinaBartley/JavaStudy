@@ -13,7 +13,7 @@ public class carLogger {
     }
     // method
     public void carDescription() {
-        System.out.print("The car is a " + this.make + " from the year " + this.year + " and it's the color " + this.color +".");
+        System.out.print("A " + this.make + " from the year " + this.year + " in " + this.color +".");
     }
     // main
     public static void main(String[] args) {

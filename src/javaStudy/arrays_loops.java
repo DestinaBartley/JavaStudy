@@ -12,15 +12,9 @@ public class arrays_loops {
             }
         }
 
-        // another method: i = 0, then +1 for every name in names until i = "Jay"
-        for (int i = 0; i < names.length; i++) {
-            if (names[i].equals("Jay")) {
-                System.out.println("Jay was found.");
-            }
-        }
-
         // int array
         int[] ages = {28, 28, 22, 52, 29};
+
         for (int age : ages) {
             if (age > 50) {
                 System.out.println("Someone is older than 50.");
