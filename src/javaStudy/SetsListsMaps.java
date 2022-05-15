@@ -6,36 +6,21 @@ public class SetsListsMaps {
 
         // HASHSET: a mutable UNSORTED and UNORDERED set that CAN'T contain the same element twice
         Set<Integer> hs = new HashSet<>();
-        hs.add(57);
-        hs.add(63);
-        hs.add(31);
-        hs.add(57);
-        hs.add(44);
-        hs.add(-44);
+        Collections.addAll(hs, 57, 63, 31, 57, 44, -44);
         System.out.println("Hashset: " + hs);
 
         // TREESET: a mutable SORTED set that CAN'T contain the same element twice
         Set<Integer> ts = new TreeSet<>();
-        ts.add(57);
-        ts.add(63);
-        ts.add(31);
-        ts.add(57);
-        ts.add(44);
-        ts.add(-44);
+        Collections.addAll(ts, 57, 63, 31, 57, 44, -44);
         System.out.println("Treeset: " + ts);
 
         // ARRAYLIST: a mutable ORDERED list that CAN contain the same element twice
-        ArrayList<Integer> al = new ArrayList<>();
-        al.add(57);
-        al.add(63);
-        al.add(31);
-        al.add(57);
-        al.add(44);
-        al.add(-44);
+        List<Integer> al = new ArrayList<>();
+        Collections.addAll(al, 57, 63, 31, 57, 44, -44);
         System.out.println("Arraylist: " + al);
 
         // HASHMAP: an unordered and unsorted map (dictionary)
-        HashMap<String, Number> map1 = new HashMap<>();
+        Map<String, Number> map1 = new HashMap<>();
         map1.put("Jay", 29);
         map1.put("Jeff", 1.5);
         map1.put("Pippa", 13);
@@ -44,7 +29,7 @@ public class SetsListsMaps {
         System.out.println("Hashmap: " + map1);
         
         // TREEMAP: a sorted map (dictionary)
-        TreeMap<String, Number> map2 = new TreeMap<>();
+        Map<String, Number> map2 = new TreeMap<>();
         map2.put("Jay", 29);
         map2.put("Jeff", 1.5);
         map2.put("Pippa", 13);

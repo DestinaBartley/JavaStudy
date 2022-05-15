@@ -1,24 +1,31 @@
 package javaStudy;
-
-import java.util.HashMap;
+import java.util.*;
 
 public class mapsPractice {
     public static void main(String[] args) {
 
-        HashMap map1 = new HashMap();
-
         String greeting = "Hello and Welcome";
 
-        // loop through greeting
-        for(char x:greeting.toCharyArray()) {
-            if (map1.containsKey(x)){
-                int old = (int) map1.get(x);
-                map1.put(x, old+1);
+        // loops through greeting and print each letter
+        for(char i:greeting.toCharArray()) {
+            System.out.println(i);
+        }
+
+
+        // loop through greeting and count characters
+        Map map1 = new HashMap();
+
+        for(char i:greeting.toCharArray()) {
+            if (map1.containsKey(i)){
+                int old = (int) map1.get(i);
+                map1.put(i, old+1);
             }
             else {
-                map1.put(x, 1);
+                map1.put(i, 1);
             }
         }
         System.out.println(map1);
+
+
     }
 }
