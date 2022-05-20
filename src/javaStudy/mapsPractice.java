@@ -11,7 +11,6 @@ public class mapsPractice {
             System.out.println(i);
         }
 
-
         // loop through greeting and count characters
         Map map1 = new HashMap();
 

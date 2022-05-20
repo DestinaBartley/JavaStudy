@@ -1,4 +1,4 @@
-package javaStudy;
+package javaStudy.oopPractice;
 
 public class carLogger {
     String make;
