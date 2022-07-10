@@ -2,14 +2,20 @@ package javaStudy.CodeCademy;
 
 public class Order {
 
+<<<<<<< Updated upstream
     // attributes
     String item;
+=======
+
+    // attributes
+>>>>>>> Stashed changes
     boolean isFilled;
     double billAmount;
     String shipping;
 
 
     // constructor
+<<<<<<< Updated upstream
     public Order(String item, boolean filled, double cost, String shippingMethod) {
         this.isFilled = filled;
         this.billAmount = cost;
@@ -19,6 +25,19 @@ public class Order {
 
     public void ship() {
         System.out.println("\n1 " + item + " ordered:");
+=======
+    public Order(boolean filled, double cost, String shippingMethod) {
+        if (cost > 24.00) {
+            System.out.println("High value item!");
+        }
+        isFilled = filled;
+        billAmount = cost;
+        shipping = shippingMethod;
+    }
+
+
+    public void ship() {
+>>>>>>> Stashed changes
         if (isFilled) {
             System.out.println("Shipping");
             System.out.println("Shipping cost: " + calculateShipping());
@@ -27,6 +46,7 @@ public class Order {
         }
     }
 
+<<<<<<< Updated upstream
     public double calculateShipping() {
         double shippingCost;
         // declare switch statement here
@@ -54,3 +74,27 @@ public class Order {
         laptop.ship();
     }
 }
+=======
+
+    public double calculateShipping() {
+        // declare conditional statement here
+        if (shipping == "Regular") {
+            return 0;
+        } else if (shipping == "Express") {
+            return 1.75;
+        } else {
+            return 0.50;
+        }
+
+    }
+
+
+    public static void main(String[] args) {
+        // do not alter the main method!
+        Order book = new Order(true, 9.99, "Express");
+        Order chemistrySet = new Order(false, 72.50, "Regular");
+        book.ship();
+        chemistrySet.ship();
+    }
+}
+>>>>>>> Stashed changes
