@@ -35,7 +35,5 @@ public class Droid {
         droid1.updateBattery();
         droid1.performTask("Doing the dishes");
         droid1.updateBattery();
-
-
     }
 }

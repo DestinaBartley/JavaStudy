@@ -3,8 +3,13 @@ package javaStudy.CodeCademy;
 public class Order {
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     // attributes
     String item;
+=======
+
+    // attributes
+>>>>>>> Stashed changes
 =======
 
     // attributes
@@ -16,6 +21,7 @@ public class Order {
 
     // constructor
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public Order(String item, boolean filled, double cost, String shippingMethod) {
         this.isFilled = filled;
         this.billAmount = cost;
@@ -26,6 +32,8 @@ public class Order {
     public void ship() {
         System.out.println("\n1 " + item + " ordered:");
 =======
+=======
+>>>>>>> Stashed changes
     public Order(boolean filled, double cost, String shippingMethod) {
         if (cost > 24.00) {
             System.out.println("High value item!");
@@ -37,6 +45,9 @@ public class Order {
 
 
     public void ship() {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         if (isFilled) {
             System.out.println("Shipping");
@@ -46,6 +57,7 @@ public class Order {
         }
     }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     public double calculateShipping() {
         double shippingCost;
@@ -75,6 +87,8 @@ public class Order {
     }
 }
 =======
+=======
+>>>>>>> Stashed changes
 
     public double calculateShipping() {
         // declare conditional statement here
@@ -97,4 +111,7 @@ public class Order {
         chemistrySet.ship();
     }
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
