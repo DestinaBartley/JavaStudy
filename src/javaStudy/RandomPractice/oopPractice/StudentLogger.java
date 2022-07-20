@@ -1,4 +1,4 @@
-package javaStudy.oopPractice;
+package javaStudy.RandomPractice.oopPractice;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
@@ -25,7 +25,7 @@ public class StudentLogger {
 
     // methods
     public void welcomeMessage() {
-        System.out.printf("Hello %s %s! Welcome to your couse, %s!\n", firstName, lastName, course);
+        System.out.printf("Hello %s %s! Welcome to your course, %s!\n", firstName, lastName, course);
     }
 
     private void addToList() {

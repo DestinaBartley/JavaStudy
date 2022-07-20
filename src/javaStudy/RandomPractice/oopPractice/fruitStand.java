@@ -1,4 +1,4 @@
-package javaStudy.oopPractice;
+package javaStudy.RandomPractice.oopPractice;
 
 public class fruitStand {
     // instance fields

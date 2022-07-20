@@ -1,4 +1,4 @@
-package javaStudy;
+package javaStudy.RandomPractice;
 import java.util.Scanner;
 
 public class Inputs_if_else {

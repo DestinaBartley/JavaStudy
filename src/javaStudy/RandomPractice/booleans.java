@@ -1,4 +1,4 @@
-package javaStudy;
+package javaStudy.RandomPractice;
 
 public class booleans {
     public static void main(String[] args) {

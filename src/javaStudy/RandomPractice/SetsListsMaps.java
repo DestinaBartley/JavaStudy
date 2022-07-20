@@ -1,4 +1,4 @@
-package javaStudy;
+package javaStudy.RandomPractice;
 import java.util.*;
 
 public class SetsListsMaps {

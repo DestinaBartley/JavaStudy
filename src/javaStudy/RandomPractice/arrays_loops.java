@@ -1,4 +1,4 @@
-package javaStudy;
+package javaStudy.RandomPractice;
 
 public class arrays_loops {
     public static void main(String[] args) {
